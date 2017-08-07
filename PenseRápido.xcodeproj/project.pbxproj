@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		500616441F0EA9180031F07B /* TelaInicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500616431F0EA9180031F07B /* TelaInicial.swift */; };
+		500A47831F099E0900507BC7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500A47821F099E0900507BC7 /* Social.framework */; };
+		501FD0DF1F0AC9C100CDF949 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501FD0DE1F0AC9C100CDF949 /* GoogleMobileAds.framework */; };
+		501FD0E11F0ACB6000CDF949 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 501FD0E01F0ACB6000CDF949 /* GoogleService-Info.plist */; };
+		501FD0E71F0C287A00CDF949 /* facebookIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 501FD0E61F0C287A00CDF949 /* facebookIcon3.png */; };
+		501FD0E91F0C2C9C00CDF949 /* TelaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501FD0E81F0C2C9C00CDF949 /* TelaInfo.swift */; };
+		5046F7B31EF3115D00F7A40E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046F7B21EF3115D00F7A40E /* AppDelegate.swift */; };
+		5046F7B81EF3115D00F7A40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5046F7B61EF3115D00F7A40E /* Main.storyboard */; };
+		5046F7BB1EF3115D00F7A40E /* PenseRa_pido.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5046F7B91EF3115D00F7A40E /* PenseRa_pido.xcdatamodeld */; };
+		5046F7BD1EF3115D00F7A40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5046F7BC1EF3115D00F7A40E /* Assets.xcassets */; };
+		5046F7C01EF3115D00F7A40E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5046F7BE1EF3115D00F7A40E /* LaunchScreen.storyboard */; };
+		5046F7CB1EF3115D00F7A40E /* PenseRa_pidoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046F7CA1EF3115D00F7A40E /* PenseRa_pidoTests.swift */; };
+		5046F7D61EF3115E00F7A40E /* PenseRa_pidoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046F7D51EF3115E00F7A40E /* PenseRa_pidoUITests.swift */; };
+		5046F7E41EF314D800F7A40E /* LogoPenseRapido.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5046F7E31EF314D800F7A40E /* LogoPenseRapido.tiff */; };
+		5046F7E61EF3209C00F7A40E /* Trofeu.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5046F7E51EF3209C00F7A40E /* Trofeu.tiff */; };
+		5046F7EE1EF368FB00F7A40E /* botaoCima.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5046F7ED1EF368FB00F7A40E /* botaoCima.tiff */; };
+		5046F7F01EF368FF00F7A40E /* botaoBaixo.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5046F7EF1EF368FF00F7A40E /* botaoBaixo.tiff */; };
+		5046F7F21EF36E3100F7A40E /* infoBotao.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5046F7F11EF36E3100F7A40E /* infoBotao.tiff */; };
+		5046F7F61EF4281100F7A40E /* TelaJogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046F7F51EF4281100F7A40E /* TelaJogo.swift */; };
+		5046F7F81EF4286500F7A40E /* TelaFimDeJogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046F7F71EF4286500F7A40E /* TelaFimDeJogo.swift */; };
+		5049FBAA1F06BED7009B10C5 /* button clicked.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5049FBA91F06BED6009B10C5 /* button clicked.wav */; };
+		5049FBAF1F06CB0D009B10C5 /* playGame.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5049FBAE1F06CB0D009B10C5 /* playGame.wav */; };
+		5049FBB11F06CE4B009B10C5 /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5049FBB01F06CE4B009B10C5 /* gameOver.wav */; };
+		5049FBB31F086F7E009B10C5 /* timerIcon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5049FBB21F086F7E009B10C5 /* timerIcon.tiff */; };
+		5049FBB51F08781E009B10C5 /* timerSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5049FBB41F08781E009B10C5 /* timerSound.wav */; };
+		50A8AADB1F062201006C6CD4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A8AADA1F062201006C6CD4 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5046F7C71EF3115D00F7A40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5046F7A71EF3115D00F7A40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5046F7AE1EF3115D00F7A40E;
+			remoteInfo = "PenseRápido";
+		};
+		5046F7D21EF3115D00F7A40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5046F7A71EF3115D00F7A40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5046F7AE1EF3115D00F7A40E;
+			remoteInfo = "PenseRápido";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		500616431F0EA9180031F07B /* TelaInicial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaInicial.swift; sourceTree = "<group>"; };
+		500A47821F099E0900507BC7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		501FD0DE1F0AC9C100CDF949 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		501FD0E01F0ACB6000CDF949 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		501FD0E61F0C287A00CDF949 /* facebookIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookIcon3.png; sourceTree = "<group>"; };
+		501FD0E81F0C2C9C00CDF949 /* TelaInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaInfo.swift; sourceTree = "<group>"; };
+		5046F7AF1EF3115D00F7A40E /* PenseRápido.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PenseRápido.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5046F7B21EF3115D00F7A40E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5046F7B71EF3115D00F7A40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5046F7BA1EF3115D00F7A40E /* PenseRa_pido.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PenseRa_pido.xcdatamodel; sourceTree = "<group>"; };
+		5046F7BC1EF3115D00F7A40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5046F7BF1EF3115D00F7A40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5046F7C11EF3115D00F7A40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5046F7C61EF3115D00F7A40E /* PenseRápidoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PenseRápidoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5046F7CA1EF3115D00F7A40E /* PenseRa_pidoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenseRa_pidoTests.swift; sourceTree = "<group>"; };
+		5046F7CC1EF3115D00F7A40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5046F7D11EF3115D00F7A40E /* PenseRápidoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PenseRápidoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5046F7D51EF3115E00F7A40E /* PenseRa_pidoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenseRa_pidoUITests.swift; sourceTree = "<group>"; };
+		5046F7D71EF3115E00F7A40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5046F7E31EF314D800F7A40E /* LogoPenseRapido.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = LogoPenseRapido.tiff; sourceTree = "<group>"; };
+		5046F7E51EF3209C00F7A40E /* Trofeu.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Trofeu.tiff; sourceTree = "<group>"; };
+		5046F7ED1EF368FB00F7A40E /* botaoCima.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = botaoCima.tiff; sourceTree = "<group>"; };
+		5046F7EF1EF368FF00F7A40E /* botaoBaixo.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = botaoBaixo.tiff; sourceTree = "<group>"; };
+		5046F7F11EF36E3100F7A40E /* infoBotao.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = infoBotao.tiff; sourceTree = "<group>"; };
+		5046F7F51EF4281100F7A40E /* TelaJogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaJogo.swift; sourceTree = "<group>"; };
+		5046F7F71EF4286500F7A40E /* TelaFimDeJogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaFimDeJogo.swift; sourceTree = "<group>"; };
+		5049FBA91F06BED6009B10C5 /* button clicked.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "button clicked.wav"; sourceTree = "<group>"; };
+		5049FBAE1F06CB0D009B10C5 /* playGame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playGame.wav; sourceTree = "<group>"; };
+		5049FBB01F06CE4B009B10C5 /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
+		5049FBB21F086F7E009B10C5 /* timerIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = timerIcon.tiff; sourceTree = "<group>"; };
+		5049FBB41F08781E009B10C5 /* timerSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = timerSound.wav; sourceTree = "<group>"; };
+		50A8AADA1F062201006C6CD4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5046F7AC1EF3115D00F7A40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501FD0DF1F0AC9C100CDF949 /* GoogleMobileAds.framework in Frameworks */,
+				500A47831F099E0900507BC7 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5046F7C31EF3115D00F7A40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5046F7CE1EF3115D00F7A40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		500A47811F099E0800507BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				500A47821F099E0900507BC7 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5046F7A61EF3115D00F7A40E = {
+			isa = PBXGroup;
+			children = (
+				5046F7B11EF3115D00F7A40E /* PenseRápido */,
+				5046F7C91EF3115D00F7A40E /* PenseRápidoTests */,
+				5046F7D41EF3115D00F7A40E /* PenseRápidoUITests */,
+				5046F7B01EF3115D00F7A40E /* Products */,
+				500A47811F099E0800507BC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5046F7B01EF3115D00F7A40E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5046F7AF1EF3115D00F7A40E /* PenseRápido.app */,
+				5046F7C61EF3115D00F7A40E /* PenseRápidoTests.xctest */,
+				5046F7D11EF3115D00F7A40E /* PenseRápidoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5046F7B11EF3115D00F7A40E /* PenseRápido */ = {
+			isa = PBXGroup;
+			children = (
+				501FD0DE1F0AC9C100CDF949 /* GoogleMobileAds.framework */,
+				5049FBB21F086F7E009B10C5 /* timerIcon.tiff */,
+				5049FBB41F08781E009B10C5 /* timerSound.wav */,
+				5049FBB01F06CE4B009B10C5 /* gameOver.wav */,
+				5049FBAE1F06CB0D009B10C5 /* playGame.wav */,
+				5049FBA91F06BED6009B10C5 /* button clicked.wav */,
+				50A8AADA1F062201006C6CD4 /* icon.png */,
+				501FD0E61F0C287A00CDF949 /* facebookIcon3.png */,
+				5046F7F11EF36E3100F7A40E /* infoBotao.tiff */,
+				5046F7ED1EF368FB00F7A40E /* botaoCima.tiff */,
+				5046F7EF1EF368FF00F7A40E /* botaoBaixo.tiff */,
+				5046F7E51EF3209C00F7A40E /* Trofeu.tiff */,
+				5046F7E31EF314D800F7A40E /* LogoPenseRapido.tiff */,
+				5046F7B21EF3115D00F7A40E /* AppDelegate.swift */,
+				500616431F0EA9180031F07B /* TelaInicial.swift */,
+				5046F7F51EF4281100F7A40E /* TelaJogo.swift */,
+				5046F7F71EF4286500F7A40E /* TelaFimDeJogo.swift */,
+				501FD0E81F0C2C9C00CDF949 /* TelaInfo.swift */,
+				5046F7B61EF3115D00F7A40E /* Main.storyboard */,
+				5046F7BE1EF3115D00F7A40E /* LaunchScreen.storyboard */,
+				5046F7BC1EF3115D00F7A40E /* Assets.xcassets */,
+				5046F7C11EF3115D00F7A40E /* Info.plist */,
+				501FD0E01F0ACB6000CDF949 /* GoogleService-Info.plist */,
+				5046F7B91EF3115D00F7A40E /* PenseRa_pido.xcdatamodeld */,
+			);
+			path = "PenseRápido";
+			sourceTree = "<group>";
+		};
+		5046F7C91EF3115D00F7A40E /* PenseRápidoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5046F7CA1EF3115D00F7A40E /* PenseRa_pidoTests.swift */,
+				5046F7CC1EF3115D00F7A40E /* Info.plist */,
+			);
+			path = "PenseRápidoTests";
+			sourceTree = "<group>";
+		};
+		5046F7D41EF3115D00F7A40E /* PenseRápidoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5046F7D51EF3115E00F7A40E /* PenseRa_pidoUITests.swift */,
+				5046F7D71EF3115E00F7A40E /* Info.plist */,
+			);
+			path = "PenseRápidoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5046F7AE1EF3115D00F7A40E /* PenseRápido */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5046F7DA1EF3115E00F7A40E /* Build configuration list for PBXNativeTarget "PenseRápido" */;
+			buildPhases = (
+				5046F7AB1EF3115D00F7A40E /* Sources */,
+				5046F7AC1EF3115D00F7A40E /* Frameworks */,
+				5046F7AD1EF3115D00F7A40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PenseRápido";
+			productName = "PenseRápido";
+			productReference = 5046F7AF1EF3115D00F7A40E /* PenseRápido.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5046F7C51EF3115D00F7A40E /* PenseRápidoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5046F7DD1EF3115E00F7A40E /* Build configuration list for PBXNativeTarget "PenseRápidoTests" */;
+			buildPhases = (
+				5046F7C21EF3115D00F7A40E /* Sources */,
+				5046F7C31EF3115D00F7A40E /* Frameworks */,
+				5046F7C41EF3115D00F7A40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5046F7C81EF3115D00F7A40E /* PBXTargetDependency */,
+			);
+			name = "PenseRápidoTests";
+			productName = "PenseRápidoTests";
+			productReference = 5046F7C61EF3115D00F7A40E /* PenseRápidoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5046F7D01EF3115D00F7A40E /* PenseRápidoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5046F7E01EF3115E00F7A40E /* Build configuration list for PBXNativeTarget "PenseRápidoUITests" */;
+			buildPhases = (
+				5046F7CD1EF3115D00F7A40E /* Sources */,
+				5046F7CE1EF3115D00F7A40E /* Frameworks */,
+				5046F7CF1EF3115D00F7A40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5046F7D31EF3115D00F7A40E /* PBXTargetDependency */,
+			);
+			name = "PenseRápidoUITests";
+			productName = "PenseRápidoUITests";
+			productReference = 5046F7D11EF3115D00F7A40E /* PenseRápidoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5046F7A71EF3115D00F7A40E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Everton;
+				TargetAttributes = {
+					5046F7AE1EF3115D00F7A40E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TK5Y26D53T;
+						ProvisioningStyle = Automatic;
+					};
+					5046F7C51EF3115D00F7A40E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5046F7AE1EF3115D00F7A40E;
+					};
+					5046F7D01EF3115D00F7A40E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5046F7AE1EF3115D00F7A40E;
+					};
+				};
+			};
+			buildConfigurationList = 5046F7AA1EF3115D00F7A40E /* Build configuration list for PBXProject "PenseRápido" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5046F7A61EF3115D00F7A40E;
+			productRefGroup = 5046F7B01EF3115D00F7A40E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5046F7AE1EF3115D00F7A40E /* PenseRápido */,
+				5046F7C51EF3115D00F7A40E /* PenseRápidoTests */,
+				5046F7D01EF3115D00F7A40E /* PenseRápidoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5046F7AD1EF3115D00F7A40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501FD0E71F0C287A00CDF949 /* facebookIcon3.png in Resources */,
+				5046F7C01EF3115D00F7A40E /* LaunchScreen.storyboard in Resources */,
+				5046F7F21EF36E3100F7A40E /* infoBotao.tiff in Resources */,
+				5046F7F01EF368FF00F7A40E /* botaoBaixo.tiff in Resources */,
+				5046F7EE1EF368FB00F7A40E /* botaoCima.tiff in Resources */,
+				5046F7BD1EF3115D00F7A40E /* Assets.xcassets in Resources */,
+				5046F7E61EF3209C00F7A40E /* Trofeu.tiff in Resources */,
+				5049FBB51F08781E009B10C5 /* timerSound.wav in Resources */,
+				50A8AADB1F062201006C6CD4 /* icon.png in Resources */,
+				5049FBB11F06CE4B009B10C5 /* gameOver.wav in Resources */,
+				501FD0E11F0ACB6000CDF949 /* GoogleService-Info.plist in Resources */,
+				5046F7E41EF314D800F7A40E /* LogoPenseRapido.tiff in Resources */,
+				5046F7B81EF3115D00F7A40E /* Main.storyboard in Resources */,
+				5049FBAF1F06CB0D009B10C5 /* playGame.wav in Resources */,
+				5049FBAA1F06BED7009B10C5 /* button clicked.wav in Resources */,
+				5049FBB31F086F7E009B10C5 /* timerIcon.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5046F7C41EF3115D00F7A40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5046F7CF1EF3115D00F7A40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5046F7AB1EF3115D00F7A40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5046F7BB1EF3115D00F7A40E /* PenseRa_pido.xcdatamodeld in Sources */,
+				500616441F0EA9180031F07B /* TelaInicial.swift in Sources */,
+				5046F7F61EF4281100F7A40E /* TelaJogo.swift in Sources */,
+				501FD0E91F0C2C9C00CDF949 /* TelaInfo.swift in Sources */,
+				5046F7B31EF3115D00F7A40E /* AppDelegate.swift in Sources */,
+				5046F7F81EF4286500F7A40E /* TelaFimDeJogo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5046F7C21EF3115D00F7A40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5046F7CB1EF3115D00F7A40E /* PenseRa_pidoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5046F7CD1EF3115D00F7A40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5046F7D61EF3115E00F7A40E /* PenseRa_pidoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5046F7C81EF3115D00F7A40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5046F7AE1EF3115D00F7A40E /* PenseRápido */;
+			targetProxy = 5046F7C71EF3115D00F7A40E /* PBXContainerItemProxy */;
+		};
+		5046F7D31EF3115D00F7A40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5046F7AE1EF3115D00F7A40E /* PenseRápido */;
+			targetProxy = 5046F7D21EF3115D00F7A40E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5046F7B61EF3115D00F7A40E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5046F7B71EF3115D00F7A40E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5046F7BE1EF3115D00F7A40E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5046F7BF1EF3115D00F7A40E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5046F7D81EF3115E00F7A40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5046F7D91EF3115E00F7A40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5046F7DB1EF3115E00F7A40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TK5Y26D53T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PenseRápido",
+				);
+				INFOPLIST_FILE = "PenseRápido/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EvertonCarneiro.PenseRa-pido";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5046F7DC1EF3115E00F7A40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TK5Y26D53T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PenseRápido",
+				);
+				INFOPLIST_FILE = "PenseRápido/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EvertonCarneiro.PenseRa-pido";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5046F7DE1EF3115E00F7A40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PenseRápidoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EvertonCarneiro.PenseRa-pidoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PenseRápido.app/PenseRápido";
+			};
+			name = Debug;
+		};
+		5046F7DF1EF3115E00F7A40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PenseRápidoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EvertonCarneiro.PenseRa-pidoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PenseRápido.app/PenseRápido";
+			};
+			name = Release;
+		};
+		5046F7E11EF3115E00F7A40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "PenseRápidoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EvertonCarneiro.PenseRa-pidoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "PenseRápido";
+			};
+			name = Debug;
+		};
+		5046F7E21EF3115E00F7A40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "PenseRápidoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EvertonCarneiro.PenseRa-pidoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "PenseRápido";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5046F7AA1EF3115D00F7A40E /* Build configuration list for PBXProject "PenseRápido" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5046F7D81EF3115E00F7A40E /* Debug */,
+				5046F7D91EF3115E00F7A40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5046F7DA1EF3115E00F7A40E /* Build configuration list for PBXNativeTarget "PenseRápido" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5046F7DB1EF3115E00F7A40E /* Debug */,
+				5046F7DC1EF3115E00F7A40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5046F7DD1EF3115E00F7A40E /* Build configuration list for PBXNativeTarget "PenseRápidoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5046F7DE1EF3115E00F7A40E /* Debug */,
+				5046F7DF1EF3115E00F7A40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5046F7E01EF3115E00F7A40E /* Build configuration list for PBXNativeTarget "PenseRápidoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5046F7E11EF3115E00F7A40E /* Debug */,
+				5046F7E21EF3115E00F7A40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5046F7B91EF3115D00F7A40E /* PenseRa_pido.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5046F7BA1EF3115D00F7A40E /* PenseRa_pido.xcdatamodel */,
+			);
+			currentVersion = 5046F7BA1EF3115D00F7A40E /* PenseRa_pido.xcdatamodel */;
+			path = PenseRa_pido.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5046F7A71EF3115D00F7A40E /* Project object */;
+}
